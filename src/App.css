@@ -1,0 +1,58 @@
+.phonebookBox {
+	margin: 80px;
+}
+.PhoneBookBlock {
+	display: block;
+	border: 1px solid rgb(45, 87, 88);
+	/* border-color: bisque; */
+	background-color: cadetblue;
+	max-width: 400px;
+}
+p {
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.inputText {
+	padding: 0px 20px 20px 20px;
+	font-size: 18px;
+	margin: 20px;
+	font-weight: 600;
+}
+.PhoneBook {
+	padding: 0px 20px;
+	margin: 20px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+input {
+	padding: 10px;
+	font-size: 20px;
+}
+
+.addContact {
+	margin: 20px;
+	padding: 0px 20px 20px 20px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.PhoneBookContacts {
+	padding: 0px 20px 20px 40px;
+}
+li {
+	margin: 0;
+}
+
+/* ol,
+ul {
+	list-style: none;
+} */
+
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
