@@ -32,8 +32,8 @@ input {
 }
 
 .addContact {
-	margin: 20px;
-	padding: 0px 20px 20px 20px;
+	margin: 20px 40px;
+	padding: 5px 20px;
 	font-size: 20px;
 	font-weight: 600;
 }
