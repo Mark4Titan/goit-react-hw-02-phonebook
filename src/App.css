@@ -1,54 +1,46 @@
-.phonebookBox {
-	margin: 80px;
-}
 .PhoneBookBlock {
 	display: block;
 	border: 1px solid rgb(45, 87, 88);
-	/* border-color: bisque; */
 	background-color: cadetblue;
 	max-width: 400px;
 }
 p {
-	font-size: 19px;
-	font-weight: 600;
-}
-
-.inputText {
-	padding: 0px 20px 20px 20px;
-	font-size: 18px;
-	margin: 20px;
-	font-weight: 600;
-}
-.PhoneBook {
-	padding: 0px 20px;
-	margin: 20px;
 	font-size: 24px;
 	font-weight: 600;
+	margin: 20px;
 }
+
+/* .PhoneBook {
+	font-size: 14px;
+	font-weight: 400;
+} */
 
 input {
 	padding: 10px;
 	font-size: 20px;
+	font-weight: 600;
+	margin: 5px 0;
 }
 
-.addContact {
-	margin: 20px 40px;
+.contactClass {
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+	margin: 1px auto;
+	border: 1px solid rgb(30, 59, 59);
+}
+
+.Contact {
 	padding: 5px 20px;
 	font-size: 20px;
 	font-weight: 600;
 }
 
-.PhoneBookContacts {
-	padding: 0px 20px 20px 40px;
-}
-li {
-	margin: 0;
-}
-
-/* ol,
+ol,
 ul {
 	list-style: none;
-} */
+	padding: 0;
+}
 
 body {
 	min-height: 100vh;
@@ -56,3 +48,28 @@ body {
 	text-rendering: optimizeSpeed;
 	line-height: 1.5;
 }
+
+.Pad {
+	margin-top: 20px;
+	border-top: 1px solid rgb(30, 59, 59);
+}
+
+h1 {
+	margin: 0;
+}
+.buttonClear {
+	display: flex;
+	align-items: center;
+	height: 35px;
+	margin: 5px 5px 5px 0;
+}
+
+.buttonClearID {
+	visibility: hidden;
+	display: contents;
+}
+
+/* .visible {
+	display: flex;
+	visibility: visible;
+} */
