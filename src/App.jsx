@@ -69,7 +69,7 @@ class App extends React.Component {
 					<ContactForm onSubmitData={this.formSubmitHandler} />
 				</div>
 				<div className="Contact Pad">
-					<h1>Contacts</h1>
+					<p className="Filter">Contacts</p>
 					<Filter setFilterToState={this.setFilterToState} />
 					<ContactList
 						contacts={this.filterArr(contacts)}

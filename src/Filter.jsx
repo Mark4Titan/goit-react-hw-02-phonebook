@@ -21,7 +21,7 @@ class Filter extends Component {
 	render() {
 		return (
 			<div>
-				<h4>Find contacts by name</h4>
+				<p className="findContacts">Find contacts by name</p>
 				<input
 					id="findContacts"
 					className="Contact"
