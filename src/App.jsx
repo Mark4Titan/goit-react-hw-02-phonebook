@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { v4 as uuidv4 } from 'uuid'
-import ContactForm from './ContactForm'
-import ContactList from './ContactList'
-import Filter from './Filter'
+import ContactForm from './Components/ContactForm/ContactForm'
+import ContactList from './Components/ContactList/ContactList'
+import Filter from './Components/Filter/Filter'
 import './App.css'
 
 const INITIAL_STATE = {
@@ -63,7 +63,7 @@ class App extends React.Component {
 		const { contacts } = this.state
 
 		return (
-			<div di="PhoneBookBlock" className="PhoneBookBlock">
+			<div className="PhoneBookBlock">
 				<div className="Contact">
 					<p>PhoneBook</p>
 					<ContactForm onSubmitData={this.formSubmitHandler} />

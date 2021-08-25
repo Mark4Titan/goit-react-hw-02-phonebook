@@ -20,7 +20,7 @@ class Filter extends Component {
 
 	render() {
 		return (
-			<div>
+			<>
 				<p className="findContacts">Find contacts by name</p>
 				<input
 					id="findContacts"
@@ -33,7 +33,7 @@ class Filter extends Component {
 					type="button">
 					Clear
 				</button>
-			</div>
+			</>
 		)
 	}
 }
